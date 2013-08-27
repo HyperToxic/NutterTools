@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C8d0cfcb"
+    android:layout_gravity="center_vertical"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/recovery"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/powerOff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/button_blue_selector"
+        android:text="刷机模式"
+        android:textColor="#ffffff"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bootloader"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/powerOff"
+        android:layout_alignLeft="@+id/powerOff"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_blue_selector"
+        android:text="bootloader"
+        android:textColor="#ffffff"
+        android:textSize="18.0dip" />
+
+    <Button
+        android:id="@+id/powerOff"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/recovery"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_blue_selector"
+        android:text="关闭手机"
+        android:textColor="#ffffff"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reboot"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/powerOff"
+        android:layout_below="@+id/powerOff"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/button_green_selector"
+        android:text="正常重启"
+        android:textColor="#ffffff"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/control"
+        android:textSize="12dp"
+        android:textColor="#5E5E5E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="" />
+
+</RelativeLayout>

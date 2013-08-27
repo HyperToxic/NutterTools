@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C8d0cfcb"
+    android:orientation="vertical" >
+
+    <Switch
+        android:id="@+id/cameraMute_switch"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="18dip"
+        android:checked="false"
+        android:gravity="center_vertical"
+        android:text="相机无声"
+        android:textColor="#000000"
+        android:textOff=""
+        android:textOn=""
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/tip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="拍照的时候没有快门声"
+        android:textColor="#5E5E5E"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3.0dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/separator" />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="18dip"
+        android:clickable="true"
+        android:text="设备信息"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/tip3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="18dip"
+        android:text="点击查看该设备信息，防止被奸商忽悠"
+        android:textColor="#5E5E5E"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3.0dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/separator" />
+
+</LinearLayout>

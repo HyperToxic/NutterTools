@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NutterTools</string>
+    <string name="action_settings">Nutter</string>
+    <string name="warning1"> * 软件会申请root权限;</string>
+    <string name="warning2"> * 不会对您的设备造成伤害;</string>
+    <string name="warning3"> * 使用前务必阅读本声明;</string>
+    <string name="warning4"> * 若因其他因素造成损失;</string>
+    <string name="warning5"> * 本团队概不负责;</string>
+    <string name="warning6"> * 本软件由bpok开发;</string>
+    <string name="title_activity_my_view">MyView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_toast">MyToast</string>
+
+</resources>

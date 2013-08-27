@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.guohao.howdroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="app.guohao.howdroid.Welcome"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.guohao.howdroid.MyView"
+            android:label="@string/title_activity_my_view" >
+        </activity>
+        <activity
+            android:name="app.guohao.howdroid.Warning"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.guohao.howdroid.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.guohao.howdroid.Help"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.guohao.howdroid.MyToast"
+            android:label="@string/title_activity_my_toast" >
+        </activity>
+        <activity
+            android:name="app.guohao.howdroid.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
